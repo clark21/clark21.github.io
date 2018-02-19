@@ -1,0 +1,61 @@
+body {
+    color: #555;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+}
+
+.main-content {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.main-content .profile-img {
+    background: #000;
+    border-radius: 50%;
+    display: table-cell;
+    height: 300px;
+    margin: auto;
+    overflow: hidden;
+    width: 300px;
+    vertical-align: middle;
+}
+
+.main-content .profile-img img {
+    width: 100%;
+}
+
+.profile-detail {
+    border: 1px solid #999;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 5px;
+    width: 310px;
+}
+
+.slogan {
+    color: #999;
+    font-size: 14px;
+    font-style: italic;
+}
+
+h1 {
+    font-family: comfortaa
+}
+
+.footer {
+    color: #ccc;
+}
+
+.fb {
+    color: #4267B2;
+}
+
+.git {
+    color: #24292E;
+}
+
+.all-right {
+    font-size: 12px;
+    margin-top: 10px;
+}

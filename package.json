@@ -1,0 +1,15 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "main": "index.html",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "opensans-npm-webfont": "^1.0.0",
+    "fontawesome5-webfont": "^5.0.4",
+    "bootstrap": "4.0.0-alpha.6"
+  },
+  "scripts" : {
+      "build" : "yarn install --modules-folder ./assets"
+  }
+}

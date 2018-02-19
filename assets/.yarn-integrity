@@ -1,0 +1,24 @@
+{
+  "nodeVersion": "v8.9.4",
+  "modulesFolders": [
+    "assets"
+  ],
+  "flags": [],
+  "linkedModules": [],
+  "topLevelPatterns": [
+    "bootstrap@4.0.0-alpha.6",
+    "fontawesome5-webfont@^5.0.4",
+    "jquery@^3.3.1",
+    "opensans-npm-webfont@^1.0.0"
+  ],
+  "lockfileEntries": {
+    "bootstrap@4.0.0-alpha.6": "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.0.0-alpha.6.tgz#4f54dd33ac0deac3b28407bc2df7ec608869c9c8",
+    "fontawesome5-webfont@^5.0.4": "https://registry.yarnpkg.com/fontawesome5-webfont/-/fontawesome5-webfont-5.0.4.tgz#f392cee1529e6dd81f1e103be8cc6c3522282995",
+    "jquery@>=1.9.1": "https://registry.yarnpkg.com/jquery/-/jquery-3.3.1.tgz#958ce29e81c9790f31be7792df5d4d95fc57fbca",
+    "jquery@^3.3.1": "https://registry.yarnpkg.com/jquery/-/jquery-3.3.1.tgz#958ce29e81c9790f31be7792df5d4d95fc57fbca",
+    "opensans-npm-webfont@^1.0.0": "https://registry.yarnpkg.com/opensans-npm-webfont/-/opensans-npm-webfont-1.0.0.tgz#910c8e525887b47eb8a6795846138a0cbac15a47",
+    "tether@^1.4.0": "https://registry.yarnpkg.com/tether/-/tether-1.4.3.tgz#fd547024c47b6e5c9b87e1880f997991a9a6ad54"
+  },
+  "files": [],
+  "artifacts": {}
+}
