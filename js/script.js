@@ -1,7 +1,8 @@
 (function() {
     var css = {};
     var c = false;
-    $('.profile-detail').click(function() {
+    $('.profile-detail, .about').click(function(e) {
+        e.preventDefault();
         c = true;
         var offset = $('.profile-detail').offset();
         css = {
