@@ -1,6 +1,8 @@
 (function() {
     var css = {};
+    var c = false;
     $('.profile-detail').click(function() {
+        c = true;
         var offset = $('.profile-detail').offset();
         css = {
             'position' : 'fixed',
@@ -31,6 +33,7 @@
 
     $('.home-back').click(function(e) {
         e.preventDefault();
+        c = false;
         $('.profile-detail').css({top: css.top, left: css.left, width: 310, 'max-width': 310});
         $('.profile-img').css({'width' : '300px', 'height': '300px', 'max-width' : '300px'})
         $('.profile-img img').css({'margin-left' : '-50px'});
@@ -57,6 +60,10 @@
     })
 
     $(window).resize(function() {
+        if (!c) {
+            return;
+        }
+        
         var mCss = $('.main-content').offset();
         var nOffset = $('.profile-detail').offset();
         $('.profile-detail').css({'top' : '30px', 'left' : mCss.left-130, 'z-index' : -10, 'width' : '112px'});
