@@ -15,13 +15,15 @@ body {
     display: table-cell;
     height: 300px;
     margin: auto;
+    max-width: 300px;
     overflow: hidden;
     width: 300px;
     vertical-align: middle;
 }
 
 .main-content .profile-img img {
-    width: 100%;
+    height: 100%;
+    margin-left: -50px;
 }
 
 .profile-detail {
