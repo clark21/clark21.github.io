@@ -19,9 +19,11 @@ body {
     overflow: hidden;
     width: 300px;
     vertical-align: middle;
+    transition: all 0.5s ease;
 }
 
 .main-content .profile-img img {
+    cursor: pointer;
     height: 100%;
     margin-left: -50px;
 }
@@ -33,6 +35,7 @@ body {
     margin-bottom: 20px;
     padding: 5px;
     width: 310px;
+    transition: all 0.5s ease;
 }
 
 .slogan {
@@ -46,6 +49,10 @@ h1 {
 
 .footer {
     color: #ddd;
+}
+
+.rss {
+    color: #F48024;
 }
 
 .fb {
@@ -67,4 +74,87 @@ h1 {
 
 html body a {
     color: #E91E63
+}
+
+.me {
+    display: none;
+}
+
+.me *{
+    text-align: left;
+}
+
+.me h2 {
+    color: #E91E63;
+    text-align: left;
+}
+
+.side-menu {
+    display: none;
+    position: fixed;
+    width: 100px;
+}
+
+.side-menu div {
+    border-bottom: 1px dashed #ddd;
+    padding: 5px;
+}
+
+.side-menu a {
+    color: #999;
+    text-decoration: none
+}
+
+
+.side-menu a:hover {
+    color: #000;
+}
+
+.side-menu .rss span {
+    color: #F48024 !important;
+}
+
+.side-menu .fb span {
+    color: #4267B2 !important;
+}
+
+.side-menu .git span {
+    color: #24292E !important;
+}
+
+.side-menu .in span {
+    color: #0077B5 !important;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+.me ul li {
+    margin-left: 15px;
+}
+
+.me ul li span {
+    color: #000;
+    font-weight: bold;
+}
+
+.me ul li em {
+    color: #999;
+    font-style: normal;
+}
+
+.me .employment strong {
+    font-size: 18px;
+}
+
+.me .employment em {
+    color: #999;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.me .employment span {
+    color: #000;
 }
