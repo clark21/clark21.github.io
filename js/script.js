@@ -34,7 +34,7 @@
     $('.home-back').click(function(e) {
         e.preventDefault();
         c = false;
-        $('.profile-detail').css({top: css.top, left: css.left, width: 310, 'max-width': 310});
+        $('.profile-detail').css({top: css.top, left: css.left, width: 312, 'max-width': 312});
         $('.profile-img').css({'width' : '300px', 'height': '300px', 'max-width' : '300px'})
         $('.profile-img img').css({'margin-left' : '-50px'});
         $('.me').fadeOut(100);
