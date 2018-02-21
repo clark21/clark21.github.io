@@ -116,7 +116,7 @@
     });
 
     $(window).scroll(function() {
-        if ($(document).scrollTop() > 10) {
+        if ($(document).scrollTop() > 10 && $(window).width() < 750) {
             closeIt();
         }
     });
