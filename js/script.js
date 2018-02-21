@@ -3,6 +3,7 @@
     var c = false;
     var open = false;
     var closeIt = function() {
+        open = false;
         $('.drawer').css({'left' : '0px'});
         $('.side-menu').css({'left' : '-130px'});
         $('.profile-detail').css({'left' : '-120px'});
@@ -87,7 +88,6 @@
 
     $('.drawer').click(function() {
         if (open) {
-            open = false;
             closeIt();
             return;
         }
