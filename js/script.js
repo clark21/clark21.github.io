@@ -96,12 +96,10 @@
 
         open = true;
         $(document).scrollTop(0);
-        setTimeout(function() {
-            $('.profile-detail').css({'left' : '10px'});
-            $('.side-menu').css({'left' : '0px'});
-            $('.side-menu').css({'left' : '0px', 'padding-top' : '150px', 'border' : '1px solid #eee', 'top' : '0px'});
-            $('.drawer').css({'left' : '130px'});
-        }, 300);
+        $('.profile-detail').css({'left' : '10px'});
+        $('.side-menu').css({'left' : '0px'});
+        $('.side-menu').css({'left' : '0px', 'padding-top' : '150px', 'border' : '1px solid #eee', 'top' : '0px'});
+        $('.drawer').css({'left' : '130px'});
     });
     
     $(window).resize(function() {
