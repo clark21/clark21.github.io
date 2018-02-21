@@ -30,6 +30,7 @@ body {
 }
 
 .profile-detail {
+    background: #fff;
     border: 1px solid #999;
     border-radius: 50%;
     margin: auto;
@@ -37,6 +38,7 @@ body {
     padding: 5px;
     width: 312px;
     transition: all 0.5s ease;
+    z-index: 10
 }
 
 .slogan {
@@ -91,13 +93,16 @@ html body a {
 }
 
 .side-menu {
+    background: #fff;
     display: none;
     position: fixed;
-    width: 100px;
+    transition: all 0.5s ease;
+    padding: 10px;
+    width: 130px;
 }
 
 .side-menu div {
-    border-bottom: 1px dashed #ddd;
+    border-top: 1px solid #f7f7f7;
     padding: 5px;
 }
 
@@ -158,4 +163,16 @@ ul, li {
 
 .me .employment span {
     color: #000;
+}
+
+.drawer {
+    background: #E91E63;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+    left: 0px;
+    top: 0px;
+    padding: 5px 15px;
+    position: fixed;
+    transition: all 0.5s ease;
 }
