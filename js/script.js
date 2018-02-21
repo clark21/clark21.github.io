@@ -93,9 +93,13 @@
         }
 
         open = true;
-        $('.profile-detail').css({'left' : '10px'});
-        $('.side-menu').css({'left' : '0px'});
-        $(this).css({'left' : '130px'});
+        $(document).scrollTop(0);
+        setTimeout(function() {
+            $('.profile-detail').css({'left' : '10px'});
+            $('.side-menu').css({'left' : '0px'});
+            $('.side-menu').css({'left' : '0px', 'padding-top' : '150px', 'border' : '1px solid #eee', 'top' : '0px'});
+            $('.drawer').css({'left' : '130px'});
+        }, 300);
     });
     
     $(window).resize(function() {
@@ -107,6 +111,12 @@
         var nOffset = $('.profile-detail').offset();
         $('.profile-detail').css({'top' : '30px', 'left' : mCss.left-130, 'width' : '112px'});
         $('.side-menu').css({'left' : mCss.left-130, 'top' : nOffset.top+130, 'border' : 'none', 'padding-top' : 0});
+    });
+
+    $(window).scroll(function() {
+        if ($(document).scrollTop() > 10) {
+            closeIt();
+        }
     });
 
     if ($(window).width() < 750) {
