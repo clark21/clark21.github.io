@@ -80,8 +80,10 @@
             $('h1').removeAttr('style');
             $('.slogan').removeAttr('style');
             $('.side-menu').removeAttr('style');
-            $('.side-menu').css({'left' : '0px', 'padding-top' : '150px', 'border' : '1px solid #eee'});
-            $('')
+            if ($(window).width() < 750) {
+                $('.side-menu').css({'left' : '0px', 'padding-top' : '150px', 'border' : '1px solid #eee'});
+            }
+            
             $('.footer').removeAttr('style');
         },500);
     })
