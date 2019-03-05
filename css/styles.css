@@ -62,6 +62,10 @@ h1 {
     color: #4267B2;
 }
 
+.msgr {
+    color: #0084FF;
+}
+
 .git {
     color: #24292E;
 }
@@ -122,6 +126,10 @@ html body a {
 
 .side-menu .fb span {
     color: #4267B2 !important;
+}
+
+.side-menu .msgr span {
+    color: #0084ff;
 }
 
 .side-menu .git span {
