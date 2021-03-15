@@ -4,7 +4,7 @@
   "main": "index.html",
   "license": "MIT",
   "dependencies": {
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "opensans-npm-webfont": "^1.0.0",
     "fontawesome5-webfont": "^5.0.4",
     "bootstrap": "4.0.0-alpha.6"
