@@ -1218,9 +1218,9 @@ gulp-sass@^2.0.4:
     through2 "^2.0.0"
     vinyl-sourcemaps-apply "^0.2.0"
 
-gulp-uglify@^1.4.1:
+gulp-uglify@^1.4.3:
   version "1.5.4"
-  resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/gulp-uglify/-/gulp-uglify-1.5.4.tgz#524788d87666d09f9d0c21fb2177f90039a658c9"
+  resolved "https://registry.yarnpkg.com/gulp-uglify/-/gulp-uglify-1.5.4.tgz#524788d87666d09f9d0c21fb2177f90039a658c9"
   dependencies:
     deap "^1.0.0"
     fancy-log "^1.0.0"
@@ -2266,8 +2266,8 @@ path-is-inside@^1.0.1:
   resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/path-is-inside/-/path-is-inside-1.0.2.tgz#365417dede44430d1c11af61027facf074bdfc53"
 
 path-parse@^1.0.5:
-  version "1.0.5"
-  resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/path-parse/-/path-parse-1.0.5.tgz#3c1adf871ea9cd6c9431b6ea2bd74a0ff055c4c1"
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
 
 path-root-regex@^0.1.0:
   version "0.1.2"
