@@ -1218,9 +1218,9 @@ gulp-sass@^2.0.4:
     through2 "^2.0.0"
     vinyl-sourcemaps-apply "^0.2.0"
 
-gulp-uglify@^1.4.1:
+gulp-uglify@^1.4.3:
   version "1.5.4"
-  resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/gulp-uglify/-/gulp-uglify-1.5.4.tgz#524788d87666d09f9d0c21fb2177f90039a658c9"
+  resolved "https://registry.yarnpkg.com/gulp-uglify/-/gulp-uglify-1.5.4.tgz#524788d87666d09f9d0c21fb2177f90039a658c9"
   dependencies:
     deap "^1.0.0"
     fancy-log "^1.0.0"
@@ -3122,8 +3122,8 @@ xtend@~3.0.0:
   resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/xtend/-/xtend-3.0.0.tgz#5cce7407baf642cba7becda568111c493f59665a"
 
 y18n@^3.2.0, y18n@^3.2.1:
-  version "3.2.1"
-  resolved "https://npm.hubteam.com/npm-nexus/repository/npm-all/y18n/-/y18n-3.2.1.tgz#6d15fba884c08679c0d77e88e7759e811e07fa41"
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/y18n/-/y18n-3.2.2.tgz#85c901bd6470ce71fc4bb723ad209b70f7f28696"
 
 yallist@^2.1.2:
   version "2.1.2"
